@@ -35,7 +35,7 @@ def parse_info(f):
 	info['prestige'] = unpack('h', data[2:4])[0]
 	f.seek(f.tell() + 20 + 20 + 50 * 636)
 	data = f.read(20)
-	txtfile = data.strip('\0').lower()
+	txtfile = data.strip('\0').upper()
 	f.seek(f.tell() + 78)
 	data = f.read(1)
 	info['flag'] = unpack('b',data[0:1])[0] - 1 #TODO Fix this, bad country indexes was carried from a badly installation of pg2

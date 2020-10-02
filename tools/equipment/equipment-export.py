@@ -143,7 +143,7 @@ next(f) # skip header
 next(f) # skip entry 0
 o = open('equipment.js', 'w') # file that list each property as a hash, nice but big >300k
 oc = open ('equipment-condensed.js', 'w') # a condensed version that list properties in an array
-shp = open('../icons/shp.list', 'w')
+shp = open('../icon-convert/shp.list', 'w')
 
 #reader = csv.DictReader( f, delimiter=';', fieldnames = keys)
 

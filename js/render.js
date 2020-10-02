@@ -728,6 +728,7 @@ function Render(mapObj)
 			c.scale(-1,1);
 			c.translate(-flip,0);
 		}
+		console.log(image);
 		c.drawImage(image, imgidx , 0, imagew, imageh, ix0, iy0, imagew, imageh);
 		
 		if (mirror) c.restore();

@@ -51,7 +51,7 @@ function GameState(Game)
 
 		//Build the equipment since we know all player and supporting countries
 		var countryList = map.getCountriesBySide(0);
-		Equipment.buildEquipment(countryList.concat(map.getCountriesBySide(1)));
+		Equipment.addCountryListEquipment(countryList.concat(map.getCountriesBySide(1)));
 
 		Game.scenario.copy(s);
 

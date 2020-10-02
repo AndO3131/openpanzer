@@ -415,4 +415,4 @@ var DEBUG_CAMPAIGN = false; //If victory choices buttons should be shown for eas
 var DEBUG_AI_MOVES = false; //If we should show AI moves (used in game.js)
 var VERSION = "2.9.0";
 var NATIVE_PLATFORM = "generic";
-var DEBUG_CAMPAIGN = true;
+//var DEBUG_CAMPAIGN = true;
